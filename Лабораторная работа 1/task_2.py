@@ -1,5 +1,7 @@
 # TODO Найдите количество книг, которое можно разместить на дискете
-disk_size = 1.44 * 1024 * 1024
+size = 1.44
+kilobyte = 1024
+disk_size = size * kilobyte * kilobyte
 count_of_pages = 100
 count_of_lines_on_one_page = 50
 count_of_symbols_in_one_line = 25
